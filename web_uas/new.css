@@ -1,0 +1,75 @@
+.container1 {
+    width: 100%;
+    margin: 0px auto;
+    background-image: url("https: //archive.org/download/media-sanctuary-meda-benjamin-code-pink-ukraine/i1.sndcdn.comartworks-MjoPIJubYJz4rylP-BFc2zw.jpg");
+    background-size: cover;
+    border-style: solid;
+    background-color: black;
+}
+
+.bila {
+    width: 75%;
+    margin: 0px auto;
+}
+
+.container2 {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.row {
+    width: 100%;
+    display: inline-block;
+}
+
+section#left {
+    padding: 4px 8px;
+    box-sizing: border-box;
+    width: 75%;
+    float: left;
+}
+
+aside#right {
+    padding: 4px 8px;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+}
+
+footer {
+    padding: 4px 8px;
+    margin-top: 4px;
+    background-color: #999;
+}
+
+.vl {
+    border-left: 6px solid yellow;
+    height: 200px;
+}
+
+.container3 {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.button {
+    background-color: orange;
+    border: none;
+    color: black;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: purple;
+}
+
+.a:hover {
+    background-color: yellow;
+}

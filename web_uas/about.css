@@ -1,0 +1,65 @@
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.tengah {
+    width: 100%;
+}
+
+.desc{
+    width: 60%;
+    
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.center1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box1{
+    display: flex;
+    flex-direction: row;
+}
+
+.kotak{
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.add{
+    border: 2px solid black;
+    width: 360px;
+    margin-left: 10px;
+    margin-top: 40px;
+    padding: 5px 5px 5px 5px;
+    height: 150px;
+    overflow: show;
+}
+
+.add button{
+    border-radius: 12px;
+    background-color: aquamarine;
+}
+
+.tengah {
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text-bout{
+    justify-content: center;
+    align-items: center;
+}

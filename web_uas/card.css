@@ -1,0 +1,150 @@
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    grid-gap: 50px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card-container-2{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card-container-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    grid-gap: 10px;
+    height: 25%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.abang-mahesa{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    transition: all 0.4s ease-in-out;
+    border-radius: 5px;
+}
+.card-voucher{
+    display: flex;
+    border: 2px dashed red;
+    width: 250px;
+    height: 40px;
+    transition: all 0.4s ease-in-out;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    transition-duration: 0.4s;
+}
+
+.card-login{
+    display: flex;
+    border: 2px solid black;
+    width: 250px;
+    height: 200px;
+    border-radius: 12px;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* .card-login button{
+    width: 60px;
+    height: 20px;
+    border-radius: 12px;
+} */
+
+.text-voucher p{
+    margin: 0;
+    padding: 0;
+}
+.text-login{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.card-voucher:hover{
+    background-color: red;
+}
+
+
+.card img{
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+}
+
+
+.card:hover{
+    scale: 105%;
+}
+
+.card button{
+    background-color: red ;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.card button:hover {
+    background-color: green ;
+}
+
+.text-container-in{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+.text-voucher{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width: 1000px){
+    .card-container{
+        grid-template-columns: auto auto;
+    }
+    .card-container-1{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media(max-width:500px){
+    .card-container {
+            grid-template-columns: auto;
+        }
+    .card-container-1{
+        grid-template-columns: auto;
+    }
+}
+
+
+
